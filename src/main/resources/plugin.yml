@@ -1,0 +1,14 @@
+name: CanvasCounterfeiter
+version: ${project.version}
+main: be4rfjp.canvascounterfeiter.CanvasCounterfeiter
+api-version: 1.15
+#--------------------------------------
+commands:
+  cc:
+    description: Type /cc help
+    usage: Type /cc help
+    permission: cc.admin
+#--------------------------------------
+permissions:
+  cc.admin:
+    description: admin command.
